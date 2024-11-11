@@ -1,0 +1,59 @@
+[
+  
+  {
+    "name": "Bolo de Chocolate",
+    "description": "Bolo de chocolate recheado com brigadeiro e cobertura de ganache.",
+    "price": 44.90,
+    "image": "https://receitatodahora.com.br/wp-content/uploads/2022/05/bolo-de-chocolate-recheado.jpg",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Torta de Morango",
+    "description": "Torta feita com massa crocante e recheio de morango fresquinho.",
+    "price": 39.90,
+    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2020/06/18/torta-morango-chocolate-branco.jpg",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Bolo de Cenoura",
+    "description": "Bolo de cenoura fofinho com cobertura de chocolate meio amargo.",
+    "price": 29.90,
+    "image": "https://www.delicia.com.br/wp-content/uploads/fly-images/1935/media1058bolo-de-cenoura-1366x500.png",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Torta de Limão",
+    "description": "Deliciosa torta de limão com creme suave e base crocante.",
+    "price": 35.00,
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2018/04/torta-de-limao-facil.jpg",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Bolo Red Velvet",
+    "description": "Bolo vermelho com recheio de cream cheese e cobertura cremosa.",
+    "price": 54.90,
+    "image": "https://s2-receitas.glbimg.com/DxZTy6kfkQiQp3S9kWZSaCMn32U=/0x0:620x385/984x0/smart/filters:strip_icc()/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2015/03/27/Red_velvet.jpg",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Torta de Nozes",
+    "description": "Torta crocante com recheio de nozes e creme de leite condensado.",
+    "price": 39.90,
+    "image": "https://moinhoglobo.com.br/wp-content/uploads/2021/08/torta-de-nozes-foto.png",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Bolo de Laranja",
+    "description": "Bolo de laranja com calda de açúcar e toque de baunilha.",
+    "price": 29.90,
+    "image": "https://thecookieshop.wordpress.com/wp-content/uploads/2014/07/bolo-de-laranja.jpg",
+    "category": "Bolos e Tortas"
+  },
+  {
+    "name": "Torta Alemã",
+    "description": "Torta tradicional alemã com camadas de creme de leite, biscoitos e chocolate.",
+    "price": 49.90,
+    "image": "https://img.cybercook.com.br/receitas/577/torta-alema-rei.jpeg",
+    "category": "Bolos e Tortas"
+  }
+]

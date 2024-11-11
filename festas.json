@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cento de Brigadeiros",
+    "image": "https://www.saborbrasil.it/wp-content/uploads/2021/06/brigadeiro.jpg",
+    "description": "Centenas de brigadeiros tradicionais, feitos com leite condensado, chocolate e confeitos.",
+    "price": 119.90,
+    "category": "Para festas"
+  },
+  {
+    "name": "Cento de Beijinhos de Coco",
+    "image": "https://vovopalmirinha.com.br/wp-content/uploads/2019/04/beijinho-de-coco.png",
+    "description": "Docinhos de coco com leite condensado e coco ralado, finalizados com açúcar e cravo.",
+    "price": 119.90,
+    "category": "Para festas"
+  },
+  {
+    "name": "Cento de Docinhos de Leite Ninho",
+    "image": "https://docemaniacris.com.br/wp-content/uploads/2018/11/Docinho-de-leite-ninho...png",
+    "description": "Docinhos à base de leite Ninho, enrolados e finalizados com açúcar fino.",
+    "price": 129.90,
+    "category": "Para festas"
+  },
+  {
+    "name": "Trufas Variadas",
+    "image": "https://img.freepik.com/fotos-premium/trufas-de-chocolate-variadas-de-varios-sabores-sobre-um-fundo-de-marmore_686512-358.jpg",
+    "description": "Caixa com cento de trufas sortidas: chocolate ao leite, branco e meio amargo.",
+    "price": 180.00,
+    "category": "Para festas"
+  },
+  {
+    "name": "Camafeus de Nozes",
+    "image": "https://www.doceiguaria.com.br/wp-content/uploads/2021/01/Camafeu-de-nozes-1.jpg",
+    "description": "Doces de nozes cobertos com fondant e decorados com meia noz, ideais para festas.",
+    "price": 159.90,
+    "category": "Para festas"
+  },
+  {
+    "name": "Bolinhas de Amendoim",
+    "image": "https://img.freepik.com/fotos-premium/uma-tigela-de-bolinhas-de-manteiga-de-amendoim-esta-sobre-uma-mesa-de-madeira-ao-lado-de-uma-tigela-de-bolinhas-de-manteiga-de-amendoim_865967-17701.jpg",
+    "description": "Deliciosas bolinhas de amendoim crocantes e doces, perfeitas para festas.",
+    "price": 99.90,
+    "category": "Para festas"
+  },
+  {
+    "name": "Cento de Olho de Sogra",
+    "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-olho-de-sogra-2.jpg",
+    "description": "Tradicionais olhos de sogra, feitos com ameixa, leite condensado e coco.",
+    "price": 135.00,
+    "category": "Para festas"
+  },
+  {
+    "name": "Combo Festa 500 Doces",
+    "image": "https://salgados.nilsabor.com.br/sabores/imagens/doces-para-festas-docinhos-para-festa-infantil.jpg",
+    "description": "Combo com 500 docinhos variados para festa, incluindo brigadeiros, beijinhos, olho de sogra, trufas e camafeus. Ideal para eventos de grande porte, com variedades que agradam a todos.",
+    "price": 549.90,
+    "category": "Para festas"
+  }
+]
