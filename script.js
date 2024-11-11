@@ -48,7 +48,7 @@ fetch('./data/produtos.json').then(response => {return response.json();}).then(p
   })
 
   function detectarCategoriaClicada() {
-    document.querySelectorAll('.nav ul li[data-categoria]').forEach(item => { // Apenas seleciona os li com o atributo data-categoria
+    document.querySelectorAll('.nav ul li[data-categoria]').forEach(item => {
         item.addEventListener('click', () => {
             const categoria = item.getAttribute('data-categoria');
             console.log("Categoria selecionada:", categoria);
@@ -68,8 +68,8 @@ fetch('./data/produtos.json').then(response => {return response.json();}).then(p
                     jsonFile = './data/produtos.json';
             }
 
-            const container = document.getElementById('produtos'); // Obtém o contêiner pelo ID
-            container.innerHTML = ''; // Limpa o contêiner de produtos
+            const container = document.getElementById('produtos');
+            container.innerHTML = ''; 
 
             fetch(jsonFile)
                 .then(response => response.json())
@@ -117,7 +117,7 @@ fetch('./data/produtos.json').then(response => {return response.json();}).then(p
                         container.appendChild(card);
                     });
 
-                    // Faz a rolagem suave para o contêiner de produtos
+                    
                     container.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 })
                 .catch(error => console.error("Erro ao carregar JSON:", error));
