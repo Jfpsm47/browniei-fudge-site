@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Bolo de Pote de Brigadeiro",
+    "image": "https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/7503/6494ac459ea8f1ou04.webp",
+    "description": "Bolo de chocolate com camadas de brigadeiro e cobertura de granulado.",
+    "price": 12.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Leite Ninho",
+    "image": "https://static.ifood-static.com.br/image/upload/t_medium/pratos/12d58c86-ef16-4313-a49b-abff136d64c4/202108191750_3028_i.jpg",
+    "description": "Bolo branco com recheio de creme de leite Ninho e cobertura de leite em pó.",
+    "price": 13.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Morango",
+    "image": "https://cdn.awsli.com.br/2500x2500/1355/1355474/produto/253658679/whatsapp-image-2024-02-06-at-17-15-00-am73cwd1bt.jpeg",
+    "description": "Bolo com camadas de creme de morango, coberto com pedaços de morango fresco.",
+    "price": 14.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Paçoca",
+    "image": "https://deliciasfit.com/wp-content/uploads/2023/02/Bolo-Pacoca-de-Pote.jpg",
+    "description": "Bolo com camadas de paçoca e cobertura de doce de leite.",
+    "price": 13.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Oreo",
+    "image": "https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/623a1cae21f4b.webp",
+    "description": "Bolo com creme de Oreo e pedaços crocantes, coberto com biscoitos.",
+    "price": 16.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Chocolate com Nutella",
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/bolo-leite-ninho-nutella-potinho-768x619.jpg",
+    "description": "Bolo de chocolate com recheio de Nutella e cobertura de chocolate.",
+    "price": 17.90,
+    "category": "Bolos de Pote"
+  },
+  {
+    "name": "Bolo de Pote de Limão Siciliano",
+    "image": "https://i.pinimg.com/736x/e5/d3/98/e5d3983eb2c03d2a440a61a6303b3d12.jpg",
+    "description": "Bolo de limão siciliano com creme de limão e cobertura de raspas de limão.",
+    "price": 14.90,
+    "category": "Bolos de Pote"
+  }
+]

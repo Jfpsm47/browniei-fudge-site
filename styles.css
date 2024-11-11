@@ -11,14 +11,14 @@ html {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff3f3;
+    background-color: #f1e0e2;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    background-color: #FAC1BD;
+    background-color: #661920;
     color: white;
 }
 
@@ -33,7 +33,7 @@ body {
 
 
 .nav {
-    background-color: #FAC1BD;
+    background-color: #661920;
     width: 100%;
     display: flex; 
     justify-content: center;
@@ -111,7 +111,7 @@ body {
 }
 
 .buy-button {
-    background-color: #ff877e;
+    background-color: #661920;
     color: white;
     border: none;
     border-radius: 5px;
@@ -120,11 +120,11 @@ body {
 }
 
 .buy-button:hover {
-    background-color: #ffa9a2; 
+    background-color: #91232c; 
 }
 
 .footer {
-    background-color: #ff877e;
+    background-color: #661920;
     color: white;
     text-align: center;
     padding: 30px;
@@ -185,7 +185,7 @@ body {
 }
 
 .hero-button {
-    background-color: #ff877e;
+    background-color: #661920;
     color: white;
     border: none;
     border-radius: 5px;
@@ -195,21 +195,21 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #ffa9a2;
+    background-color: #91232c;
 }
 
-/* Corrigindo alinhamento para o contêiner dos botões */
 .button-group {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 50px; /* Garante espaçamento consistente */
+    margin-left: 50px; 
 }
 
 .circle-buttons {
     display: flex;
     gap: 10px; /* Espaço entre os botões circulares */
     margin-bottom: 5px; /* Espaço ajustado abaixo dos botões circulares */
+    
 }
 
 /* Estilo para os botões circulares */
@@ -217,7 +217,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #692B25;
+    background-color: #b32020;
     color: white;
     border: none;
     font-size: 14px;
@@ -227,7 +227,7 @@ body {
     justify-content: center;
 }
 .circle-button:hover{
-    background-color: #693e39;
+    background-color: #b84343;
 
 }
 .zap-img{

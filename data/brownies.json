@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Brownie de Chocolate Tradicional",
+    "image": "https://www.culinariadavovo.com.br/wp-content/uploads/2021/03/receita-brownie-tradicional.jpg",
+    "description": "Brownie clássico de chocolate feito com cacau 70%, macio e saboroso.",
+    "price": 15.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Nozes",
+    "image": "https://www.bonde.com.br/img/bondenews/2017/04/img_1_33_3263.jpg",
+    "description": "Brownie com pedaços de nozes, proporcionando crocância e sabor.",
+    "price": 18.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Doce de Leite",
+    "image": "https://img.cybercook.com.br/receitas/750/brownie-recheado-de-doce-de-leite.png",
+    "description": "Brownie com recheio de doce de leite cremoso, feito para os amantes de doces.",
+    "price": 20.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Avelã",
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/brownie-creme-avela-nozes.jpg",
+    "description": "Brownie com pedaços de avelã torradas, ideal para quem busca um toque gourmet.",
+    "price": 21.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Caramelo Salgado",
+    "image": "https://static.itdg.com.br/images/1200-630/9916f775bf81b58804f895e58efe557f/como-fazer-brownie-com-caramelo-salgado.jpg",
+    "description": "Brownie com recheio de caramelo salgado, contrastando doce e salgado de forma perfeita.",
+    "price": 22.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Chocolate Branco",
+    "image": "https://nacolher.com/wp-content/uploads/2022/06/receita-de-brownie-com-chocolate-branco.jpg",
+    "description": "Brownie de chocolate branco com pedaços crocantes, doce e cremoso.",
+    "price": 19.90,
+    "category": "Brownies"
+  },
+  {
+    "name": "Brownie de Amendoim",
+    "image": "https://img.cybercook.com.br/receitas/921/brownie-de-amendoim-no-bake.jpeg",
+    "description": "Brownie com pasta de amendoim e pedaços crocantes de amendoim torrado.",
+    "price": 18.90,
+    "category": "Brownies"
+  }
+]

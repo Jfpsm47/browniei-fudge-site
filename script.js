@@ -1,4 +1,4 @@
-fetch('produtos.json').then(response => {return response.json();}).then(produtos => {
+fetch('./data/produtos.json').then(response => {return response.json();}).then(produtos => {
     const container = document.getElementsByClassName('product-container')[0];
     produtos.forEach(produto => {
       const card = document.createElement('div');
@@ -15,6 +15,7 @@ fetch('produtos.json').then(response => {return response.json();}).then(produtos
       const name = document.createElement('h3');
       name.classList.add('product-name');
       name.textContent = produto.name;
+      
 
       const description = document.createElement('p');
       description.classList.add('product-description');
@@ -26,7 +27,13 @@ fetch('produtos.json').then(response => {return response.json();}).then(produtos
 
       const button = document.createElement('button');
       button.classList.add('buy-button');
-      button.textContent = 'Mais Informações';
+      button.textContent = 'Eu quero!';
+
+      button.addEventListener('click',function(){
+        linkZap(produto.name)
+      })
+
+        
 
       info.appendChild(name);
       info.appendChild(description);
@@ -41,24 +48,24 @@ fetch('produtos.json').then(response => {return response.json();}).then(produtos
   })
 
   function detectarCategoriaClicada() {
-    document.querySelectorAll('.nav ul li').forEach(item => {
+    document.querySelectorAll('.nav ul li[data-categoria]').forEach(item => { // Apenas seleciona os li com o atributo data-categoria
         item.addEventListener('click', () => {
             const categoria = item.getAttribute('data-categoria');
             console.log("Categoria selecionada:", categoria);
 
             let jsonFile;
             switch (categoria) {
-                case "Bolos e Tortas":
-                    jsonFile = 'bolos.json';
+                case "Brownies":
+                    jsonFile = './data/brownies.json';
                     break;
-                case "Sorvetes":
-                    jsonFile = 'sorvetes.json';
+                case "Bolos de Pote":
+                    jsonFile = './data/bolos.json';
                     break;
-                case "Para festas":
-                    jsonFile = 'festas.json';
+                case "Especiais":
+                    jsonFile = './data/especiais.json';
                     break;
                 default:
-                    jsonFile = 'produtos.json';
+                    jsonFile = './data/produtos.json';
             }
 
             const container = document.getElementById('produtos'); // Obtém o contêiner pelo ID
@@ -93,7 +100,12 @@ fetch('produtos.json').then(response => {return response.json();}).then(produtos
 
                         const button = document.createElement('button');
                         button.classList.add('buy-button');
-                        button.textContent = 'Mais Informações';
+                        button.textContent = 'Eu quero!';
+
+                        button.addEventListener('click',function(){
+                            linkZap(produto.name)
+                          })
+                    
 
                         info.appendChild(name);
                         info.appendChild(description);
@@ -115,3 +127,8 @@ fetch('produtos.json').then(response => {return response.json();}).then(produtos
 
 detectarCategoriaClicada();
 
+function linkZap(nomeProduto){
+    const text = encodeURIComponent(`Olá! Vi o ${nomeProduto} no seu site e fiquei interessado.`)
+    
+    window.open(`https://wa.me/556599179468?text=${text}`, '_blank')
+}

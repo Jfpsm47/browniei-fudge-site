@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Trufas de Natal",
+    "image": "https://harald.com.br/wp-content/uploads/2018/11/trufa-natal-700x520-2.jpg",
+    "description": "Trufas de chocolate com sabores festivos e decoração natalina.",
+    "price": 45.00,
+    "category": "Especiais"
+  },
+  {
+    "name": "Ovos de Páscoa Recheados",
+    "image": "https://img.cybercook.com.br/receitas/308/ovo-de-pascoa-recheado-de-brigadeiro-4.png",
+    "description": "Ovos de chocolate recheados com creme de brigadeiro ou doce de leite.",
+    "price": 55.00,
+    "category": "Especiais"
+  }
+]
