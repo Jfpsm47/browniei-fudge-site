@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff3f3;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #FAC1BD;
+    color: white;
+}
+
+.logo {
+    font-family: 'Impact';
+    font-size: 54px; 
+}
+.logo img {
+    width: 200px; /* Ajuste conforme o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.nav {
+    background-color: #FAC1BD;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+}   
+
+.nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    align-items: center; /* Alinha todos os itens verticalmente */
+}
+
+.nav li {
+    margin-left: 50px;
+    font-size: 20px; 
+}
+.nav li:hover {
+    text-decoration: underline; 
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px; /* Aumenta o espaçamento entre os cards */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-items: center;
+}
+
+.product-card {
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta o card em 5% */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+.product-image {
+    width: 100%; 
+    max-width: 300px;
+    max-height: 171px;
+    height: auto; 
+    object-fit: cover; 
+}
+
+
+.product-info {
+    padding: 10px; 
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 16px; 
+    color: #000000;
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: #ff877e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer; 
+}
+
+.buy-button:hover {
+    background-color: #ffa9a2; 
+}
+
+.footer {
+    background-color: #ff877e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.social-icon {
+    width: 27px;
+    height: 27px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.hero-image {
+    width: 100%; /* Cobre toda a largura */
+    height: 500px; /* Altura ajustável */
+    object-fit: cover; /* Corta a imagem para caber no espaço sem distorção */
+}
+.hero-container {
+    position: relative;
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0); /* Fundo semitransparente */
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #ff877e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #ffa9a2;
+}
+
+/* Corrigindo alinhamento para o contêiner dos botões */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px; /* Garante espaçamento consistente */
+}
+
+.circle-buttons {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões circulares */
+    margin-bottom: 5px; /* Espaço ajustado abaixo dos botões circulares */
+}
+
+/* Estilo para os botões circulares */
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #692B25;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-button:hover{
+    background-color: #693e39;
+
+}
+.zap-img{
+    width: 25px;
+    height: 25px;
+}
+
+.insta-img{
+    width: 35px;
+    height: 35px;
+}
+
+/* Estilo para o botão principal */
+.header-btn {
+    background-color: #692B25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: #693e39;
+}
